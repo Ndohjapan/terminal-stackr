@@ -46,7 +46,7 @@ p {
 
 .header {
     position: relative;
-    background-image: url('../img/BIO/Team\ of\ programmers\ working\ on\ software.jpg');
+    background-image: url('../BIO/Team\ of\ programmers\ working\ on\ software.jpg');
     background-size: cover;
     z-index: 10000;
     transition: all 0.5s ease-in-out;
