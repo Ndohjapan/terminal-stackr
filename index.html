@@ -523,8 +523,8 @@
         --------------------*/
         $(window).on('load', function () {
             console.log("I have finished loading")
-            $(".loader").fadeOut();
-            $("#preloder").delay(200).fadeOut("slow");
+            document.querySelector(".loader").style.display = "none"
+            document.querySelector("#preloder").style.display = "none"
         });    
     </script>
         
